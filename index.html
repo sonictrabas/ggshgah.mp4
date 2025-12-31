@@ -5,10 +5,9 @@
 <title>Love in sensation</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!-- FB SAFE META -->
-<meta name="description" content="Watch the full video here">
+<meta name="description" content="Watch the full video">
 <meta property="og:title" content="Watch Full Video">
-<meta property="og:description" content="Tap to watch and join the group">
+<meta property="og:description" content="Tap play to watch the video">
 <meta property="og:type" content="website">
 
 <style>
@@ -18,56 +17,62 @@ body{
   background:#0f0f0f;
   color:#fff;
 }
+
 .container{
-  max-width:720px;
+  max-width:960px;
   margin:auto;
-  padding:15px;
+  padding:16px;
 }
+
 h1{
   text-align:center;
-  margin-bottom:15px;
+  margin-bottom:16px;
+  font-size:26px;
 }
-.video-box{
-  position:relative;
-  padding-bottom:56.25%;
-  height:0;
-  overflow:hidden;
-  background:#000;
-  border-radius:8px;
-}
-.video-box iframe,
-.video-box video{
-  position:absolute;
-  top:0;
-  left:0;
+
+.video-wrapper{
   width:100%;
-  height:100%;
+  background:#000;
+  border-radius:10px;
+  overflow:hidden;
 }
+
+.video-wrapper video{
+  width:100%;
+  height:auto;
+  display:block;
+}
+
 .banner{
   margin:20px 0;
   text-align:center;
 }
+
 .banner img{
   max-width:100%;
   border-radius:6px;
 }
+
 .join-btn{
   display:block;
-  text-align:center;
+  width:100%;
+  max-width:320px;
   margin:25px auto;
-  padding:14px 30px;
+  padding:14px 20px;
   background:#1877f2;
   color:#fff;
+  text-align:center;
   text-decoration:none;
   font-weight:bold;
   border-radius:40px;
-  max-width:280px;
 }
+
+/* FOOTER */
 .footer{
+  margin-top:30px;
   text-align:center;
   font-size:12px;
   opacity:0.6;
-  margin-top:20px;
 }
 </style>
 </head>
@@ -75,15 +80,16 @@ h1{
 <body>
 
 <div class="container">
+  
+ <center><h3>The real luxury: rent-free, spoiled, and loved</h3></center>
 
-  <center><h1>The real luxury: rent-free, spoiled, and loved</h1></center>
-
- <div class="video-wrapper">
-  <video controls poster="https://cdn.aceimg.com/7f9399d57.png">
-    <source src="https://cdn.videy.co/ZLwLjEHp1.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>
+  <!-- VIDEO -->
+  <div class="video-wrapper">
+    <video controls poster="https://cdn.aceimg.com/7f9399d57.png">
+      <source src="https://cdn.videy.co/ZLwLjEHp1.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
 
   <div class="banner">
     <center><script type="text/javascript">
@@ -124,4 +130,3 @@ hs.src = ('//s10.histats.com/js15_as.js');
 
 </body>
 </html>
-
