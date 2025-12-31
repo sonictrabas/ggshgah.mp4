@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Watch Full Video</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- FB SAFE META -->
+<meta name="description" content="Watch the full video here">
+<meta property="og:title" content="Watch Full Video">
+<meta property="og:description" content="Tap to watch and join the group">
+<meta property="og:type" content="website">
+
+<style>
+body{
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+  background:#0f0f0f;
+  color:#fff;
+}
+.container{
+  max-width:720px;
+  margin:auto;
+  padding:15px;
+}
+h1{
+  text-align:center;
+  margin-bottom:15px;
+}
+.video-box{
+  position:relative;
+  padding-bottom:56.25%;
+  height:0;
+  overflow:hidden;
+  background:#000;
+  border-radius:8px;
+}
+.video-box iframe,
+.video-box video{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+.banner{
+  margin:20px 0;
+  text-align:center;
+}
+.banner img{
+  max-width:100%;
+  border-radius:6px;
+}
+.join-btn{
+  display:block;
+  text-align:center;
+  margin:25px auto;
+  padding:14px 30px;
+  background:#1877f2;
+  color:#fff;
+  text-decoration:none;
+  font-weight:bold;
+  border-radius:40px;
+  max-width:280px;
+}
+.footer{
+  text-align:center;
+  font-size:12px;
+  opacity:0.6;
+  margin-top:20px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <h1>🎥 Watch Full Video</h1>
+
+ <div class="video-box">
+  <video controls poster="poster.jpg">
+    <source src="video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+  <div class="banner">
+    <center><script type="text/javascript">
+	atOptions = {
+		'key' : '3e7aa4ddaa03932b9be3938f7805c343',
+		'format' : 'iframe',
+		'height' : 60,
+		'width' : 468,
+		'params' : {}
+	};
+</script>
+<br>
+<script type="text/javascript" src="//condenseddisgustingconform.com/3e7aa4ddaa03932b9be3938f7805c343/invoke.js"></script></center>
+    </a>
+  </div>
+
+  <a class="join-btn" href="https://www.facebook.com/groups/33491961410419649/" target="_blank">
+    👉 Join Our Facebook Group
+  </a>
+
+  <div class="footer">
+    <!-- Histats.com  (div with counter) --><div id="histats_counter"></div>
+   <!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4659554,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img alt="" border="0" src="//sstatic1.histats.com/0.gif?4659554&amp;101"></a></noscript>
+<!-- Histats.com  END  -->
+  </div>
+
+</div>
+
+</body>
+</html>
