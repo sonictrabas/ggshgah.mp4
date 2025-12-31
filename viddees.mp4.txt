@@ -79,8 +79,8 @@ h1{
   <h1>🎥 Watch Full Video</h1>
 
  <div class="video-box">
-  <video controls poster="poster.jpg">
-    <source src="video.mp4" type="video/mp4">
+  <video controls poster="https://cdn.aceimg.com/7f9399d57.png">
+    <source src="video.mp4" type="https://cdn.videy.co/ZLwLjEHp1.mp4">
     Your browser does not support the video tag.
   </video>
 </div>
